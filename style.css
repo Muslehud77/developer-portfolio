@@ -10,16 +10,33 @@ h1 {
 }
 section { 
     display: flex;
+    margin-bottom: -250px;
 }
-.s01div { 
+.half-width { 
     width: 50% ;
     padding-left: 2%;
 
 }
-.s01div img {
+.half-width img {
     margin-top: 50px;
     margin-left: 200px; 
     width: 450px;
+}
+.half-width p{
+    text-align: justify;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img02{
+    margin-left: 115px;
+    margin-right: 130px;
+    width: 3500px;
+}
+.paragraph {
+    text-align: justify ;
+    margin-right: 25px;
 }
 .link-button01{
     background-image: linear-gradient(orange,orangered);
@@ -30,11 +47,16 @@ section {
     border-radius: 5px;
 }
 .developerimage{
-    margin-top: 65px;
+    margin-top: 200px;
    
 }
 .background{
     background-image: url(images/top-banner.png);
 
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom !important;
 }
