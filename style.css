@@ -8,7 +8,7 @@ h1 {
 .namecolor{
     color: orange !important;
 }
-section { 
+.flexible-container { 
     display: flex;
     margin-bottom: -250px;
 }
@@ -59,4 +59,36 @@ img {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom !important;
+}
+.section03{
+    margin-top: 350px;
+    margin-bottom: 350px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left !important;
+   
+}
+.shadow{
+    box-shadow: 10px 10px 10px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 1%;
+    border-radius: 0px 5px 5px 0px;
+    
+    }
+#border01{
+border-image: linear-gradient(orange,orchid);
+border-left: 10px solid ;
+border-image-slice: 1;
+}
+
+#border02{
+    border-image: linear-gradient(rgb(1, 183, 255), #0004ff);
+        border-left: 10px solid;
+        border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
